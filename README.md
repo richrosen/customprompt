@@ -1,6 +1,8 @@
 # customprompt
 Customize your shell prompt in living color with current working directory, system identification and git branch support
 
+![Plain Vanilla Customized Prompt](./images/01-custom-shell-prompt-plain.png "Plain Vanilla Customized Prompt")
+
 ## What this script does
 
 By including this script at shell startup time, your prompt will be modified in the following ways:
