@@ -48,8 +48,7 @@ COLOR_CYAN=6
 COLOR_WHITE=7
 ```
 
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title
+![Plain Vanilla Customized Prompt](./images/01-custom-shell-prompt-plain.png "Plain Vanilla Customized Prompt")
 
 ## Git Branch Support
 
