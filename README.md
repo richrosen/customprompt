@@ -12,9 +12,9 @@ By including this script at shell startup time, your prompt will be modified in 
 3. followed by a colon and the path of the current working directory...
 4. and a `$` on a new line
 
-The script causes a break to a new line before displaying the `$` so that there is enough room on the line to enter a command.
+The script causes a break to a new line before displaying the `$` so that there is enough room on the line to enter a command. The user name, machine name, and path could take up enough space to fill the line.)
 
-In addition, there is a separate prompt for when you are logged in as root (or `su` to root or enter a `sudo bash` command to become root. I like to make the text and background colors for root striking enough that I know I'm acting as root and should be careful not to abuse my superuserpowers. (The username is replaced by a blatant indication that `I AM ROOT` for additional em
+In addition, there is a separate prompt for when you are logged in as root (or `su` to root or enter a `sudo bash` command to become root. I like to make the text and background colors for root striking enough that I know I'm acting as root and should be careful not to abuse my superuserpowers. (The username is replaced by a blatant indication that `I AM ROOT` for additional emphasis.)
 
 ## Directions
 
