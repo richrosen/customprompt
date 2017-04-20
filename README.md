@@ -70,5 +70,5 @@ By default, the script assumes the environment supports git and will make use of
     * `curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh`
 ```
       source ~/.git-prompt.sh
-      source ~/.custompromptshrc
+      source ~/.custompromptrc
 ```      
