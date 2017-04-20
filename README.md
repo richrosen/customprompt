@@ -47,6 +47,12 @@ COLOR_MAGENTA=5
 COLOR_CYAN=6
 COLOR_WHITE=7
 ```
+
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title
+
+## Git Branch Support
+
 By default, the script assumes the environment supports git and will make use of the `__git_ps1` command to include the current repository branch in the prompt, assuming the current working directory sits within a git repository. If that command cannot be found (a problem that happens in several environments owing to changes in the git distribution), you have two options.
 1. Use the `custompromptrc-nogit.sh` file as the script you include in your startup file. This eliminates references to `__git_ps1`.
 1. Download the raw `.git-prompt.sh` file and source it in your startup file before any reference to the `custompromptsh` script.
