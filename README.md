@@ -3,7 +3,7 @@ Customize your shell prompt in living color with current working directory, syst
 
 ## What this script does
 
-By including this script at login time, your shell prompt will be modified in the following ways:
+By including this script at shell startup time, your prompt will be modified in the following ways:
 
 1. A line going across the entire width of the screen will appear...
 2. above a line displaying the `username@computername` by default...
