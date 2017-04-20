@@ -17,7 +17,7 @@ In addition, there is a separate prompt for when you are logged in as root (or `
 ## Directions
 
 1. Copy the `bin/custompromptrc.sh` file into your home directory, renaming it to `.custompromptrc` 
-1. Source the file in your `.bashrc` or `.bash_profile` file
+1. Source the file in your shell startup file (`.bashrc` or `.bash_profile`)
    + ```source ~/.custompromptrc```
 1. Open a new shell window or re-login to the shell. You should see the custom shell prompt as described above.
 
@@ -47,3 +47,10 @@ COLOR_MAGENTA=5
 COLOR_CYAN=6
 COLOR_WHITE=7
 ```
+By default, the script assumes the environment supports git and will make use of the `__git_ps1` command to include the current repository branch in the prompt, assuming the current working directory sits within a git repository. If that command cannot be found (a problem that happens in several environments owing to changes in the git distribution), you have two options.
+1. Use the `custompromptrc-nogit.sh` file as the script you include in your startup file. This eliminates references to `__git_ps1`.
+1. Download the raw `.git-prompt.sh` file and source it in your startup file before any reference to the `custompromptsh` script.
+    * curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
+    
+    * source ~/.git-prompt.sh
+      source ~/.custompromptshrc
