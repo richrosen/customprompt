@@ -50,7 +50,8 @@ COLOR_WHITE=7
 By default, the script assumes the environment supports git and will make use of the `__git_ps1` command to include the current repository branch in the prompt, assuming the current working directory sits within a git repository. If that command cannot be found (a problem that happens in several environments owing to changes in the git distribution), you have two options.
 1. Use the `custompromptrc-nogit.sh` file as the script you include in your startup file. This eliminates references to `__git_ps1`.
 1. Download the raw `.git-prompt.sh` file and source it in your startup file before any reference to the `custompromptsh` script.
-    * curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh
-    
-    * source ~/.git-prompt.sh
+    * `curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh`
+```
+      source ~/.git-prompt.sh
       source ~/.custompromptshrc
+```      
