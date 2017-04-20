@@ -47,16 +47,16 @@ COLOR_MAGENTA=5
 COLOR_CYAN=6
 COLOR_WHITE=7
 ```
-Plain Vanilla Customized Prompt
+### Plain Vanilla Customized Prompt
 ![Plain Vanilla Customized Prompt](./images/01-custom-shell-prompt-plain.png "Plain Vanilla Customized Prompt")
 
-Customized Prompt for Root
+### Customized Prompt for Root
 ![Customized Prompt for Root](./images/02-custom-shell-prompt-4root.png "Customized Prompt for Root")
 
-With Additional Customization
+### With Additional Customization
 ![With Additional Customization](./images/03-custom-shell-prompt-with-additional-customization.png "With Additional Customization")
 
-In A Different Directory with Git Branch
+### In A Different Directory with Git Branch
 ![In A Different Directory with Git Branch](./images/04-custom-shell-prompt-new-directory-w-git-branch.png "In A Different Directory with Git Branch")
 
 
